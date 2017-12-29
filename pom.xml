@@ -6,8 +6,11 @@
 
     <groupId>com.mydeveloperplanet</groupId>
     <artifactId>mymodulesplanet</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>com.mydeveloperplanet.jpmshello</module>
+    </modules>
 
     <properties>
         <maven.version>3.3.9</maven.version>
