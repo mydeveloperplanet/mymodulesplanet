@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>com.mydeveloperplanet.jpmshello</module>
+        <module>com.mydeveloperplanet.jpmshi</module>
     </modules>
 
     <properties>
