@@ -1,6 +1,7 @@
 package com.mydeveloperplanet.jpmshello;
 
 import com.mydeveloperplanet.jpmshi.HiModules;
+import com.mydeveloperplanet.serviceproviderinterface.Service;
 
 import java.lang.reflect.Method;
 
@@ -16,6 +17,7 @@ public class HelloModules {
 
         checkExportsDirectiveWithReflection();
         checkOpensDirectiveWithReflection();
+        checkProvidesWith();
     }
 
     private static void checkExportsDirectiveWithReflection() {
@@ -38,6 +40,11 @@ public class HelloModules {
         catch (Throwable e) {
             System.err.println(e);
         }
+    }
+
+    private static void checkProvidesWith() {
+        Service service = Service.getInstance();
+        service.printServiceNames();
     }
 
 }
