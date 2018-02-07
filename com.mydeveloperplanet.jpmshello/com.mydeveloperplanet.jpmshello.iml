@@ -12,5 +12,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: com.mydeveloperplanet:jpmshi:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="com.mydeveloperplanet.serviceproviderinterface" />
   </component>
 </module>

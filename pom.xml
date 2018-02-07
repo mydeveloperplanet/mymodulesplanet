@@ -11,6 +11,9 @@
     <modules>
         <module>com.mydeveloperplanet.jpmshello</module>
         <module>com.mydeveloperplanet.jpmshi</module>
+        <module>com.mydeveloperplanet.serviceproviderinterface</module>
+        <module>com.mydeveloperplanet.serviceprovider1</module>
+        <module>com.mydeveloperplanet.serviceprovider2</module>
     </modules>
 
     <properties>
